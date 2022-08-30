@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Postmates Transactional Email</title>
+  <style>
+    body {
+      background: lightblue;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .btn:hover {
+      background-color: #007279 !important;
+      border-color: #007279 !important;
+    }
+
+    @media screen and (max-width: 600px) {
+      .container {
+        width: 100% !important;
+      }
+
+      .img {
+        width: 100% !important;
+        height: auto;
+      }
+
+      .hide {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- start of htmlemail -->
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+        <!-- start of 600px container -->
+        <table class="container" width="600" align="center" valign="top" border="0" cellspacing="0" cellpadding="0">
+          <!-- start of header row -->
+          <tr>
+            <td>
+              <table class="header" width="100%" align="center" valign="top" border="0" cellspacing="0" cellpadding="0"
+                style=" background: #f6f6f8; padding: 20px 40px;">
+                <tr>
+                  <!-- image column-left -->
+                  <td>
+                    <table width="100%" align="center" valign="top" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td align="left" valign="top" width="300">
+                          <img class="img" src="/images/postmates-horz-black-3x.png" width="167" height="32" Halt=""
+                            style="display: block; border: 0; margin: 0; padding: 0;">
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- image column-left -->
+                  <!-- content right-column -->
+                  <td>
+                    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td align="right" valign="top" width="300">
+                          <p class="header-info"
+                            style=" font-size: 11px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; line-height: 1.2; margin: 0; text-align: right;">
+                            Total <strong>$38.05</strong><br>
+                            February 11,2022
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <!-- content right-column -->
+                </tr>
+              </table>
+              <table class="header" width="100%" align="center" border="0" cellspacing="0" cellpadding="0"
+                style=" background: #f6f6f8; padding: 0 40px 25px;">
+                <tr>
+                  <td align="left"
+                    style="font-family: Arial, Helvetica, sans-serif; font-weight:lighter; padding-bottom: 10px;">
+                    <h1
+                      style=" font-size: 34px; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; line-height: 38px; margin: 0;">
+                      Thanks for ordering,<br>
+                      Smiles Davis
+                    </h1>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left"
+                    style="font-family: Arial, Helvetica, sans-serif; font-weight: lighter; padding-bottom: 20px;">
+                    <p align="left"
+                      style="font-family: Arial, Helvetica, sans-serif; font-weight: lighter; line-height: 1.4; margin: 0;">
+                      Here's your receipt for Pat's<br> Pizzeria & Ristorante</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left">
+                    <a class="btn" href="#"
+                      style="font-size: 12px; line-height: 1.3; text-decoration: none; font-family: Arial, Helvetica, sans-serif; background: #22594b; border: 1px solid #22594b; padding: 13px 30px; border-radius: 29px; color: #ffffff; text-transform: uppercase; font-weight: 400; font-size: 10px; letter-spacing: 1px; text-align: center;">Rate
+                      ordering
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- end of header row -->
+
+          <!-- start of items and payment  row -->
+          <tr>
+            <td>
+              <table class="item-section" width="100%" align="center" valign="top" border="0" cellspacing="0"
+                cellpadding="0" style=" background: #ffffff; padding: 20px 40px;">
+                <tr>
+                  <td>
+                    <!-- total item -->
+                    <table class="item" width="100%" align="center" valign="top" border="0" cellspacing="0"
+                      cellpadding="0">
+                      <tr>
+                        <td align="left" valign="top" width="50%">
+                          <p class="total" style="font-family: Arial, Helvetica, sans-serif; font-size: 44px; font-weight: bold; font-weight: lighter; line-height: 5
+                            0px; letter-spacing: 1px; margin: 0; text-transform: capitalize;">
+                            total
+                          </p>
+                        </td>
+                        <td align="right" valign="top" width="50%">
+                          <p
+                            style=" font-size: 44px;
+                                font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; line-height: 50px; letter-spacing: 1px; margin: 0; text-transform: capitalize;">
+                            $38.05
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- total item -->
+                    <!-- start of separator -->
+                    <table class="item" width="100%" align="center" border="0" cellspacing="0" cellpadding="0"
+                      style="padding: 26px 0;">
+                      <tr>
+                        <td style="border-bottom: 1px solid #BDBDBD;"></td>
+                      </tr>
+                    </table>
+                    <!-- end of separator -->
+                    <!-- item-list -->
+                    <table class="item" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="50%">
+                          <table class="item-list" width="100%" align="center" border="0" cellspacing="0"
+                            cellpadding="0">
+                            <tr>
+                              <td>
+                                <span
+                                  style="border: 1px solid #e0e0e0; color: #1f1f1f; font-family: Arial, Helvetica, sans-serif; font-size: 14px; width: 24px; text-align: center; line-height: 1.4; padding: 3px 7px;">
+                                  1
+                                </span>
+                              </td>
+                              <td>
+                                <p
+                                  style=" font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; line-height: 22px; letter-spacing: 1px; padding: 10px 0; margin: 0; text-transform: capitalize;">
+                                  16" Thin Crust Pizza
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td align="right" width="50%">
+                          <p
+                            style="font-family: Arial, Helvetica, sans-serif; font-weight: lighter; line-height: 1.4; letter-spacing: 1px; padding: 7px 0; margin: 0; text-transform: capitalize;">
+                            $19.10
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- item-list -->
+                    <!-- item-list -->
+                    <table class="item" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="50%" style="padding-bottom: 15px;">
+                          <table class="item-list" width="100%" align="center" border="0" cellspacing="0"
+                            cellpadding="0">
+                            <tr>
+                              <td>
+                                <span
+                                  style="border: 1px solid #e0e0e0; color: #1f1f1f; font-family: Arial, Helvetica, sans-serif; font-size: 14px; width: 24px; text-align: center; line-height: 1.4; padding: 3px 7px;">
+                                  1
+                                </span>
+                              </td>
+                              <td>
+                                <p
+                                  style=" font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; line-height: 22px; letter-spacing: 1px; margin: 0; text-transform: capitalize;">
+                                  &nbsp Family Size House Salad
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <td align="right" width="50%">
+                          <p
+                            style=" font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; line-height: 22px; letter-spacing: 1px; margin: 0; text-transform: capitalize;">
+                            $11.00
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- item-list -->
+                    <!-- start of separator -->
+                    <table class="item" width="100%" align="center" border="0" cellspacing="0" cellpadding="0"
+                      style="padding: 26px 0;">
+                      <tr>
+                        <td style="border-bottom: 1px solid #BDBDBD;"></td>
+                      </tr>
+                    </table>
+                    <!-- end of separator -->
+                    <!-- item-list -->
+                    <table class="item" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td align="left" valign="top" width="50%" style="padding: 5px 0;">
+                          <p
+                            style="font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; line-height: 22px; margin: 0; text-transform: capitalize;">
+                            Subtotal
+                          </p>
+                        </td>
+                        <td align="right" valign="top" width="50%" style="padding: 5px 0;">
+                          <p
+                            style=" font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; line-height: 22px; margin: 0; text-transform: capitalize;">
+                            $30.10
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- item-list -->
+                    <!-- item-list -->
+                    <table class="item" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td align="left" valign="top" width="50%" style="padding: 5px 0;">
+                          <p
+                            style=" font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; line-height: 22px; margin: 0; text-transform: capitalize;">
+                            Tax
+                          </p>
+                        </td>
+                        <td align="right" valign="top" width="50%" style="padding: 5px 0;">
+                          <p
+                            style=" font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; line-height: 22px; margin: 0; text-transform: capitalize;">
+                            $3.54
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- item-list -->
+                    <!-- item-list -->
+                    <table class="item" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td align="left" valign="top" width="50%" style="padding: 5px 0;">
+                          <p
+                            style=" font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; line-height: 22px; margin: 0; text-transform: capitalize;">
+                            Service Fee
+                          </p>
+                        </td>
+                        <td align="right" valign="top" width="50%" style="padding: 5px 0;">
+                          <p
+                            style=" font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; line-height: 22px; margin: 0; text-transform: capitalize;">
+                            $6.92
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- item-list -->
+                    <!-- item-list -->
+                    <table class="item" width="100%" align="center" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td align="left" valign="top" width="50%" style="padding: 5px 0;">
+                          <p
+                            style=" font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; line-height: 22px; margin: 0; text-transform: capitalize;">
+                            Delivery Fee
+                            <img src="/images/grey_faq_icon_15x15_2x.png" width="15" height="15" alt="grey faq icon">
+                          </p>
+                        </td>
+                        <td align="right" width="50%" style="padding: 5px 0;">
+                          <p
+                            style=" font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; line-height: 22px; margin: 0; text-transform: capitalize;">
+                            $2.49
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- item-list -->
+                    <!-- item-list -->
+                    <table class="item" width="100%" align="center" valign="top" border="0" cellspacing="0"
+                      cellpadding="0">
+                      <tr>
+                        <td align="left" valign="top" width="50%" style="padding: 5px 0;">
+                          <p
+                            style=" font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; line-height: 22px; margin: 0; text-transform: capitalize;">
+                            Promotion
+                          </p>
+                        </td>
+                        <td align="right" valign="top" width="50%" style="padding: 5px 0;">
+                          <p
+                            style="color: #22594B; font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; line-height: 1.6; margin: 0; text-transform: capitalize;">
+                            -$5.00
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- item-list -->
+                    <!-- terms -->
+                    <table class="item" width="100%" align="left" valign="top" border="0" cellspacing="0"
+                      style="padding: 5px 0;">
+                      <tr>
+                        <td align="left" valign="top">
+                          <p
+                            style="color: #22594B; font-size: 14px; font-family: Arial, Helvetica, sans-serif; font-weight: bold; line-height: 1.4; margin: 0; text-transform: capitalize;">
+                            Download
+                            <span style="text-transform:uppercase;">Pdf</span>
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- terms -->
+                    <table class="item" width="100%" align="left" valign="top" border="0" cellspacing="0">
+                      <tr>
+                        <td align="left" valign="top" style="padding: 10px 0;">
+                          <p
+                            style="color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: lighter; line-height: 20px; margin: 0; padding-top: 10px;">
+                            This is not a payment receipt. It is an order summary to acknowledge the completion of the
+                            order. You will receive an order receipt when the payment is processed with payment
+                            information.
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- terms -->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- end of items and payment row -->
+          <!-- start of order info row -->
+          <tr>
+            <td>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0"
+                style="background: #f6f6f8; padding: 35px 40px;">
+                <tr>
+                  <td align="left" style="padding-bottom: 30px;">
+                    <p
+                      style=" font-size: 22px; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; line-height: 32px; margin: 0;">
+                      You ordered from Pat's Pizzeria & Ristorante
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" style="padding-bottom: 5px;">
+                    <p
+                      style=" font-size: 16; font-family: Arial, Helvetica, sans-serif; font-weight: bold; line-height: 22px; margin: 0;">
+                      Delivered to
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" style="padding-bottom: 30px;">
+                    <p
+                      style=" font-size: 16; font-family: Arial, Helvetica, sans-serif; font-weight: lighter; line-height: 22px; margin: 0;">
+                      600 Montgomery St, San Francisco, CA 94111
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left">
+                    <img class="img" src="images/1489a362-5654-40b2-af96-6a6efc29e041.jpeg" border="0"
+                      style="border: 0; display: block; height: 170px; width: 100%; object-fit: cover; padding: 0; margin: 0;"
+                      alt="">
+                  </td>
+                </tr>
+                <tr>
+              </table>
+            </td>
+          </tr>
+          <!-- end of order info row -->
+          <!-- start of footer row -->
+          <tr>
+            <td>
+              <!-- start top footer -->
+              <table class=" top-footer" align="center" width="100%" border="0" cellspacing="0" cellpadding="0"
+                style="background: #22594b; padding: 15px;">
+                <tr>
+                  <td class="track" align="center" width="50%">
+                    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <span
+                        style="color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; line-height: 18px;">Contact
+                        support</span>
+                      <span
+                        style="color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; line-height: 26px; padding: 0 10px;">❯</span>
+                    </table>
+                  </td>
+                  <td align="center" class="hide" style="color: #ffffff;" width="2%">|</td>
+                  <td class="track" align="center" width="50%">
+                    <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <span
+                        style="color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; line-height: 26px;">
+                        My orders
+                      </span>
+                      <span
+                        style="color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; padding: 0 10px;">
+                        ❯
+                      </span>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+              <!-- end top footer -->
+              <!-- start bottom footer -->
+              <table class="footer" align="center" width="100%" border="0" cellspacing="0" cellpadding="0"
+                style="background: #000000; padding: 35px 26px;">
+                <!-- start of footer logo -->
+                <tr>
+                  <td class="footer-logo" align="left" style=" padding: 30px 0">
+                    <img class="img " src="images/postmates-wordmark-white-3x.png" width="148" height="24" alt=""
+                      style="max-width: 148px; display: block; border: none;">
+                  </td>
+                </tr>
+                <!-- end of footer logo -->
+                <!-- start of separator -->
+                <tr>
+                  <td style="border-bottom: 1px solid #BDBDBD; padding: 26px 0;"></td>
+                </tr>
+                <!-- end of separator -->
+                <!-- start of footer info -->
+                <tr>
+                  <td>
+                    <table width="100%" align="center" valign="top" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <!-- start footer column left -->
+                        <td align="left" width="50%">
+                          <table width="100%" align="center" valign="top" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td align="left" style="padding: 0 0 6px 0;">
+                                <a href="#"
+                                  style="color:#ffffff; font-size: 12px; font-family: Arial, Helvetica, sans-serif; font-weight: 400; line-height: 18px; text-align: left; text-decoration: none;">
+                                  Forgot Password
+                                </a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" style="padding: 0 0 6px 0;">
+                                <a href="#"
+                                  style="color:#ffffff; font-size: 12px; font-family: Arial, Helvetica, sans-serif; font-weight: 400; line-height: 18px; text-align: left; text-decoration: none;">
+                                  Privacy
+                                </a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td align="left" style="padding: 0 0 6px 0;">
+                                <a href="#"
+                                  style="color:#ffffff; font-size: 12px; font-family: Arial, Helvetica, sans-serif; font-weight: 400; line-height: 18px; text-align: left; text-decoration: none;">
+                                  Terms
+                                </a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <!-- end footer column left -->
+
+                        <!-- start footer column right -->
+                        <td align="right" width="50%" ">
+                          <tr>
+                            <td>
+                              <table width=" 100%" align="center" valign="top" border="0" cellspacing="0"
+                          cellpadding="0">
+                          <p
+                            style=" color: #9d9da3; font-size: 12px; font-family: Arial, Helvetica, sans-serif; font-weight: 400; line-height: 18px; margin: 0; text-align: left;">
+                            Postmates, LLC
+                            <br>
+                            1515 3rd Street
+                            <br>
+                            San Francisco, CA 94158
+                          </p>
+                    </table>
+                  </td>
+                </tr>
+            </td>
+            <!-- end footer column right -->
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- end of footer info -->
+
+    <!-- end bottom footer -->
+    </td>
+    </tr>
+    <!-- end of footer row -->
+  </table>
+  <!-- end of 600px container -->
+  </td>
+  </tr>
+  </table>
+  <!-- end of htmlemail -->
+</body>
+
+</html>
